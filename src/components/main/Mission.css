@@ -1,0 +1,42 @@
+.mission {
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.mission-back {
+  background: #fafafa;
+}
+.mission-right img {
+  width: 100%;
+}
+.mission-left .mission-heading {
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mission-left .mission-para {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878787;
+}
+
+.mission-logo,
+.mission-bottom {
+  width: 81%;
+  height: 16%;
+  position: relative;
+  left: 5%;
+}
+@media only screen and (max-width: 767px) {
+  .mission {
+    padding: 0 10px;
+    grid-template-columns: 100%;
+  }
+}

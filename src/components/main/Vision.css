@@ -1,0 +1,61 @@
+.vision {
+  background: #ffffff;
+  padding: 0 101px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+.vision-left img {
+  width: 100%;
+  border-radius: 0px;
+}
+.vision-right .vision-heading {
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.vision-right .vision-para {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #878787;
+}
+
+.vision-logo,
+.vision-bottom {
+  width: 67%;
+  height: 16%;
+  position: relative;
+  left: 25%;
+}
+
+@media only screen and (max-width: 767px) {
+  .vision {
+    grid-template-columns: 100%;
+    padding: 0 10px;
+  }
+  .vision-right {
+    justify-content: center;
+    text-align: center;
+  }
+  .vision-logo,
+  .vision-bottom {
+    width: 67%;
+    height: 16%;
+    position: relative;
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .vision {
+    grid-template-columns: 100%;
+    
+  }
+}

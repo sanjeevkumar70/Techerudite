@@ -1,0 +1,37 @@
+.about {
+  padding: 140px;
+}
+.about-card {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.about-card .about-left img {
+  width: 100%;
+}
+.about .about-head {
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.about .about-summary {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+ 
+  .about-card {
+    grid-template-columns: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .about {
+    padding: 100px 10px;
+  }
+}

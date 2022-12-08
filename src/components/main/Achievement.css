@@ -1,0 +1,35 @@
+.achievement {
+  background: #fafafa;
+  padding: 50px 0;
+}
+.achievement {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+}
+.acv-row .rank {
+  font-family: Nunito Sans;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0em;
+}
+.acv-row .rank-desc {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  color: #414042;
+}
+
+.acv-row img {
+  height: 113.2054443359375px;
+  width: 105.11679077148438px;
+  border-radius: 0px;
+}
+@media only screen and (max-width: 767px) {
+  .achievement {
+    grid-template-columns: 50% 50%;
+  }
+}

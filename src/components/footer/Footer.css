@@ -1,0 +1,161 @@
+footer {
+  padding: 0 100px;
+}
+.footer-part {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 30% 20% 20% 30%;
+}
+.foot-row1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8d8d8d;
+}
+.foot-row1 p {
+  text-align: left;
+  width: 80%;
+}
+.foot-row1 span img {
+  padding: 0 10px;
+}
+.foot-row2,
+.foot-row4 {
+  font-family: Montserrat;
+  font-size: 14px;
+  text-align: left;
+}
+.foot-row2,
+.foot-row3,
+.foot-heading {
+  font-family: Montserrat;
+  color: #000000;
+  font-weight: 700;
+  text-align: left;
+  font-size: 18px;
+}
+.foot-row4 .foot-heading {
+  color: #000000;
+  font-weight: 700;
+  text-align: left;
+  font-size: 18px;
+  font-family: Montserrat;
+  padding-left: 10px;
+}
+.foot-row4 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8d8d8d;
+}
+.foot-row2 ul,
+.foot-row3 ul,
+.foot-row4 ul {
+  padding: 0;
+}
+
+.foot-row2 ul li,
+.foot-row3 ul li {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.foot-row2 ul li a,
+.foot-row3 ul li a {
+  text-decoration: none;
+  color: #8d8d8d;
+  font-weight: 400;
+}
+
+.footimage1 {
+  width: 100%;
+}
+.footimage2 {
+  position: relative;
+  bottom: 20rem;
+  left: 7%;
+  height: auto;
+  width: 25%;
+}
+
+.foot-row4 button {
+  border: none;
+  border-radius: 50px;
+  color: #ffff;
+  background: linear-gradient(to right, #ef8431, #e71a86);
+  padding: 10px 40px;
+}
+
+.foot-row4 button img {
+  background-color: #ffff;
+  padding: 8px 15px;
+  border-radius: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-part {
+    grid-template-columns: 55% 45%;
+  }
+  footer {
+    padding: 0px;
+  }
+  .footimage2 {
+    position: relative;
+    bottom: 15rem;
+    left: 7%;
+    height: auto;
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-part {
+    padding: 0;
+    grid-template-columns: 100%;
+  }
+  footer {
+    padding: 0px;
+  }
+  .foot-row1,
+  .foot-row2,
+  .foot-row3,
+  .foot-row4 {
+    text-align: center;
+  }
+  .footimage2 {
+    position: relative;
+    bottom: 10rem;
+    left: 1%;
+    height: auto;
+    width: 30%;
+  }
+  .foot-row2 ul li,
+  .foot-row3 ul li {
+    text-align: center;
+  }
+  .foot-row2,
+  .foot-row3,
+  .foot-heading {
+    text-align: center;
+  }
+  .foot-row4 .foot-heading {
+    text-align: center;
+  }
+  .foot-row1 p {
+    text-align: center;
+    padding: 0 50px;
+    width: 100%;
+  }
+  .foot-row4 p {
+    text-align: center;
+    padding: 0 50px;
+    width: 100%;
+  }
+}

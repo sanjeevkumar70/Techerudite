@@ -1,0 +1,23 @@
+.client {
+  display: grid;
+  grid-template-columns: 22% 34% 22% 22%;
+  padding: 50px 0;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .client {
+    grid-template-columns: 50% 50%;
+  }
+  .client-row {
+    padding: 20px 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .mission {
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}

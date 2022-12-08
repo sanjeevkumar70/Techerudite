@@ -1,0 +1,90 @@
+nav {
+  background: #ffff;
+}
+.navbar {
+  padding: 0 100px;
+}
+
+nav ul li a {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.nav-text {
+  font-family: Nunito Sans;
+  position: absolute;
+  top: 19%;
+
+  left: 9%;
+}
+.nav-text .nav-head {
+  background: linear-gradient(89.85deg, #ef8431 -1069.15%, #e71a86 218.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nav-text .nav-para {
+  width: 38%;
+}
+.nav-image .nav-child1 {
+  position: relative;
+  top: -57px;
+  left: 21%;
+  width: 78%;
+  height: auto;
+}
+
+.nav-image .nav-child2 {
+  position: absolute;
+  top: 155px;
+  left: 26%;
+  width: 20%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.nav-image .nav-child3 {
+  width: 10%;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+}
+
+.nav-image .nav-child4 {
+  position: absolute;
+  top: 80px;
+  left: 45%;
+  width: 50%;
+}
+@media only screen and (max-width: 767px) {
+  .nav-image .nav-child1 {
+    position: relative;
+    top: -57px;
+    left: 21%;
+    width: 80%;
+    height: auto;
+  }
+  .nav-text {
+    font-family: Nunito Sans;
+    position: absolute;
+    top: 11%;
+    left: 9%;
+  }
+  .nav-image .nav-child3 {
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+  }
+  .nav-text .nav-para {
+    width: 48%;
+  }
+}

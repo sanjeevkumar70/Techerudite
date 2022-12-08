@@ -1,0 +1,39 @@
+.testimonial {
+  padding: 50px 100px;
+  background-color: #ffff;
+  text-align: center;
+}
+.test-logo {
+  width: 100%;
+}
+.test-heading {
+  position: relative;
+  top: 90px;
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+}
+.test-summary {
+  color: #878787;
+  font-family: Nunito Sans;
+}
+
+.test-client {
+  color: #414042;
+  width: 100%;
+}
+.ceo-name {
+  font-weight: 500;
+  background: linear-gradient(89.85deg, #ef8431 -1069.15%, #e71a86 218.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonial {
+    padding: 10px;
+    text-align: center;
+  }
+}
